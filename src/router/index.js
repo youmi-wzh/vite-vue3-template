@@ -11,7 +11,6 @@ const routes = [
     path: "/jsx",
     name: "JsxComponent",
     component: () => import("@/views/JsxComponent.jsx"),
-    meta: { requiresAuth: false },
   },
 ];
 
