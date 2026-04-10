@@ -13,6 +13,12 @@ const routes = [
     component: () => import("@/views/JsxComponent.jsx"),
     meta: { requiresAuth: false },
   },
+  {
+    path: "/animation",
+    name: "AnimationLab",
+    component: () => import("@/views/AnimationLab.vue"),
+    meta: { requiresAuth: false },
+  },
 ];
 
 const router = createRouter({
